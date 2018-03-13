@@ -32,7 +32,7 @@ apis:
   tags: Edit
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/edit/master/_listings/reddit/r-subreddit-about-edit-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/edit/master/_listings/reddit/r-subreddit-wiki-alloweditor-act-post.md
 x-common:
 - type: x-authentication
   url: https://github.com/reddit/reddit/wiki/OAuth2
