@@ -18,9 +18,9 @@ tags:
 - Email
 - Email
 - API LIfeycle
-created: "2018-03-15"
-modified: "2018-03-15"
-url: https://raw.githubusercontent.com/streamdata-gallery/edit/master/_listings/sendgrid/apis.yaml
+created: "2018-03-21"
+modified: "2018-03-21"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/edits/master/_listings/sendgrid/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: SendGrid
@@ -32,10 +32,10 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
   humanURL: ""
   baseURL: https://api.sendgrid.com//v3
-  tags: Edit
+  tags: Edits
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/edit/master/_listings/sendgrid/user-credits-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/edits/master/_listings/sendgrid/user-credits-get.md
 x-common:
 - type: x-net-library
   url: https://sendgrid.com/docs/Code_Examples/csharp.html
