@@ -26,18 +26,22 @@ modified: "2018-05-13"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/edits/master/_listings/stack-exchange/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Stack Exchange Suggested Edits
-  description: "Returns the suggested edits the user identified by access_token has
-    submitted.\n \nThis method returns a list of suggested-edits."
+- name: Stack Exchange Get Posts Suggested Edits
+  description: "Returns suggsted edits on the posts identified in ids.\n \n - creation
+    - creation_date\n - approval - approval_date\n - rejection - rejection_date\n
+    \ creation is the default sort.\n \n {ids} can contain up to 100 semicolon delimited
+    ids, to find ids programatically look for post_id, answer_id, or question_id on
+    post, answer, and question objects respectively.\n \nThis method returns a list
+    of suggested-edits."
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/253_logo.png
   humanURL: https://stackexchange.com/
   baseURL: https://api.stackexchange.com//2.2
   tags: Edits
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/edits/master/_listings/stack-exchange/me-suggested-edits-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/edits/master/_listings/stack-exchange/posts-ids-suggested-edits-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/edits/master/_listings/stack-exchange/me-suggested-edits-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/edits/master/_listings/stack-exchange/posts-ids-suggested-edits-get-postman.md
 x-common:
 - type: x-authentication
   url: https://api.stackexchange.com/docs/authentication
